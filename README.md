@@ -10,6 +10,10 @@
 ## Commands
 
 ```sh
+composer install
+```
+
+```sh
 cp .env.example .env
 ```
 
