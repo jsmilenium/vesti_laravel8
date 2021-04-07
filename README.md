@@ -9,7 +9,7 @@
 
 ## Remember
 
-The configuration of the database **must be the same on both sides** .
+The configuration of the database .env
 
 ```dotenv
 # .env
