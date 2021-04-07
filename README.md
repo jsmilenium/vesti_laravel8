@@ -37,4 +37,8 @@ php artisan key:generate
 ```
 
 ```sh
+php artisan migrate
+```
+
+```sh
 php artisan serve
