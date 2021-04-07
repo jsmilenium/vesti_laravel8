@@ -42,3 +42,17 @@ php artisan migrate
 
 ```sh
 php artisan serve
+
+## API
+
+Showing new products
+
+```sh
+GET - /api/produtos
+```
+
+Create new product
+
+```sh
+POST - /api/produtos
+```
