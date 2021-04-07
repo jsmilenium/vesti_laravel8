@@ -42,10 +42,11 @@ php artisan migrate
 
 ```sh
 php artisan serve
+```
 
 ## API
 
-Showing new products
+Show all products
 
 ```sh
 GET - /api/produtos
