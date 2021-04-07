@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Remember
+
+The configuration of the database **must be the same on both sides** .
+
+```dotenv
+# .env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_name
+DB_USERNAME=db_user
+DB_PASSWORD=db_password
+DB_ROOT_PASSWORD=secret
+```
+
 ## Commands
 
 ```sh
