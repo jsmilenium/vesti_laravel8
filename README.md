@@ -12,7 +12,11 @@ Laravel 8, PHP 8, Mysql 8
 ## Commands
 
 ```sh
-docker exec app php artisan migrate
+1 -  docker-compose up -d --build
+```
+
+```sh
+2 - docker exec app php artisan migrate
 ```
 
 ## Api
