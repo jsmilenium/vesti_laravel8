@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Produto;
+use Illuminate\Support\Facades\Log;
 
 
 class ProdutoController extends Controller
@@ -15,6 +16,7 @@ class ProdutoController extends Controller
      */
     public function index()
     {
+        Log::info('Showing all products');
         return Produto::all();
     }
 
@@ -36,6 +38,8 @@ class ProdutoController extends Controller
      */
     public function store(Request $request)
     {
+        Log::info('Creating a product');
+
         $request->validate([
             'codigo'=>'required',
             'nome'=>'required',
@@ -65,7 +69,8 @@ class ProdutoController extends Controller
      */
     public function show($id)
     {
-        //
+        Log::info('Showing the product: '.$id);
+        return Produto::findOrFail($id);
     }
 
     /**
@@ -88,7 +93,20 @@ class ProdutoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        Log::info('Updating the product: '.$id);
+
+        $request->validate([
+            'codigo'=>'required',
+            'nome'=>'required',
+            'composicao'=>'required',
+            'tamanho'=>'required',
+            'quantidade'=>'required'
+        ]);
+
+        $produto = Produto::findOrFail($id);
+        $produto->update($request->all());
+
+        return $produto;
     }
 
     /**
@@ -99,6 +117,7 @@ class ProdutoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $produto = Produto::findOrFail($id);
+        $produto->delete();
     }
 }
