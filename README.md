@@ -9,25 +9,10 @@
 
 Laravel 8, PHP 8, Mysql 8
 
-## Remember
-
-The configuration of the database .env
-
-```dotenv
-# .env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=db_name
-DB_USERNAME=db_user
-DB_PASSWORD=db_password
-DB_ROOT_PASSWORD=secret
-```
-
 ## Commands
 
 ```sh
-1 - docker exec app php artisan migrate
+docker exec app php artisan migrate
 ```
 
 ## Api
