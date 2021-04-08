@@ -28,6 +28,7 @@ DB_ROOT_PASSWORD=secret
 
 ```sh
 1 - composer install
+1.1 - Se necessário, executar composer update.
 ```
 
 ```sh
@@ -46,7 +47,7 @@ DB_ROOT_PASSWORD=secret
 5 - php artisan serve
 ```
 
-## API
+## Api
 
 Show all products
 
@@ -78,7 +79,7 @@ Delete one product
 DELETE - /api/produtos/id
 ```
 
-## TEST
+## Test
 
 ```sh
 php artisan test
