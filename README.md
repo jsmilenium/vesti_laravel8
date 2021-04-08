@@ -25,7 +25,7 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
    cp .env.example .env
    ```
 
-3. Build the project whit the next commands:
+3. Build the project with the next commands:
 
    ```sh
    docker-compose up --build
