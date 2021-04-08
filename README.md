@@ -70,7 +70,7 @@ Update one product
 PUT - /api/produtos/id
 ```
 
-delete one product
+Delete one product
 
 ```sh
 DELETE - /api/produtos/id
