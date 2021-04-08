@@ -39,7 +39,7 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
 
 ## Api
 
-It's important to use a tool like postman to test the api
+It's important to use a tool like [Postman](https://www.postman.com//) to test the api
 
 1. Show all products
 
