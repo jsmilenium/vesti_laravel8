@@ -51,6 +51,12 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
    docker exec app php artisan migrate
    ```
 
+5. Create the tables with the next command:
+   
+   ```sh
+   docker exec app php artisan key:generate
+   ```
+
 ## Api
 
 It's important to use a tool like [Postman](https://www.postman.com//) to test the api
