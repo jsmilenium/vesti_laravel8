@@ -77,3 +77,7 @@ Delete one product
 ```sh
 DELETE - /api/produtos/id
 ```
+
+## TEST
+
+php artisan test
