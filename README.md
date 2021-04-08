@@ -9,6 +9,20 @@
 
 Laravel 8, PHP 8, Mysql 8
 
+## Remember
+
+The configuration of the database must be the same on both sides .
+
+   ```sh
+   # .env
+   DB_CONNECTION=mysql
+   DB_HOST=db
+   DB_PORT=3306
+   DB_DATABASE=vesti
+   DB_USERNAME=root
+   DB_PASSWORD=123456
+   ```
+
 ## Use
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/) on your system and [Docker Compose](https://docs.docker.com/compose/install/), and then clone this repository.
