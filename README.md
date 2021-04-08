@@ -25,23 +25,23 @@ DB_ROOT_PASSWORD=secret
 ## Commands
 
 ```sh
-composer install
+1 - composer install
 ```
 
 ```sh
-cp .env.example .env
+2 - cp .env.example .env
 ```
 
 ```sh
-php artisan key:generate
+3 - php artisan key:generate
 ```
 
 ```sh
-php artisan migrate
+4 - php artisan migrate
 ```
 
 ```sh
-php artisan serve
+5 - php artisan serve
 ```
 
 ## API
@@ -52,8 +52,26 @@ Show all products
 GET - /api/produtos
 ```
 
+Show one product
+
+```sh
+GET - /api/produtos/id
+```
+
 Create new product
 
 ```sh
 POST - /api/produtos
+```
+
+Update one product
+
+```sh
+PUT - /api/produtos/id
+```
+
+delete one product
+
+```sh
+DELETE - /api/produtos/id
 ```
