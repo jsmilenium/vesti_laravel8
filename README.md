@@ -31,6 +31,8 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
    docker-compose up --build
    ```
    
+4. Create the tables with the next command:
+   
    ```sh
    docker exec app php artisan migrate
    ```
