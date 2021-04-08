@@ -9,15 +9,29 @@
 
 Laravel 8, PHP 8, Mysql 8
 
-## Commands
+## Use
 
-```sh
-1 -  docker-compose up -d --build
-```
+To get started, make sure you have [Docker installed](https://docs.docker.com/) on your system and [Docker Compose](https://docs.docker.com/compose/install/), and then clone this repository.
 
-```sh
-2 - docker exec app php artisan migrate
-```
+1. Clone this project:
+
+   ```sh
+   git clone https://github.com/jsmilenium/vesti_laravel8
+   ```
+
+2. Inside the folder `docker-laravel-8` and Generate your own `.env` to docker compose with the next command:
+
+   ```sh
+   cp .env.example .env
+   ```
+
+3. You need **Create** or **Put** your laravel project in the folder source; to create follow the next instructions [Here](source/README.md).
+
+4. Build the project whit the next commands:
+
+   ```sh
+   docker-compose up --build
+   ```
 
 ## Api
 
