@@ -80,4 +80,6 @@ DELETE - /api/produtos/id
 
 ## TEST
 
+```sh
 php artisan test
+```
