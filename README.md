@@ -51,7 +51,7 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
    docker exec app php artisan migrate
    ```
 
-5. Create the tables with the next command:
+5. Generate the key with the next command:
    
    ```sh
    docker exec app php artisan key:generate
