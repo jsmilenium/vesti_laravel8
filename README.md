@@ -67,7 +67,7 @@ POST - /api/produtos
 Update one product
 
 ```sh
-PUT - /api/produtos/id
+POST - /api/produtos/id
 ```
 
 Delete one product
