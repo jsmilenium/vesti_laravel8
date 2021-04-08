@@ -39,34 +39,36 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
 
 ## Api
 
+It's important to use a tool like postman to test the api
+
 1. Show all products
 
    ```sh
-   GET - /api/produtos
+   GET - http://localhost/api/produtos
    ```
 
 2. Show one product
 
    ```sh
-   GET - /api/produtos/id
+   GET - http://localhost/api/produtos/id
    ```
 
 3. Create new product
 
    ```sh
-   POST - /api/produtos
+   POST - http://localhost/api/produtos
    ```
 
 4. Update one product
 
    ```sh
-   POST - /api/produtos/id
+   POST - http://localhost/api/produtos/id
    ```
 
 5. Delete one product
 
    ```sh
-   DELETE - /api/produtos/id
+   DELETE - http://localhost/api/produtos/id
    ```
 
 ## Test
