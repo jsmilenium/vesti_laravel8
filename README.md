@@ -27,24 +27,7 @@ DB_ROOT_PASSWORD=secret
 ## Commands
 
 ```sh
-1 - composer install
-1.1 - Se necessário, executar composer update.
-```
-
-```sh
-2 - cp .env.example .env
-```
-
-```sh
-3 - php artisan key:generate
-```
-
-```sh
-4 - php artisan migrate
-```
-
-```sh
-5 - php artisan serve
+1 - docker exec app php artisan migrate
 ```
 
 ## Api
@@ -82,5 +65,5 @@ DELETE - /api/produtos/id
 ## Test
 
 ```sh
-php artisan test
+docker exec app php artisan test
 ```
