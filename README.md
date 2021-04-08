@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Laravel 8, PHP 8, Mysql 8
+Docker, Laravel 8, PHP 8, Mysql 5.7
 
 ## Remember
 
