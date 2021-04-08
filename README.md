@@ -35,38 +35,38 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
 
 ## Api
 
-Show all products
+1. Show all products
 
-```sh
-GET - /api/produtos
-```
+   ```sh
+   GET - /api/produtos
+   ```
 
-Show one product
+2. Show one product
 
-```sh
-GET - /api/produtos/id
-```
+   ```sh
+   GET - /api/produtos/id
+   ```
 
-Create new product
+3. Create new product
 
-```sh
-POST - /api/produtos
-```
+   ```sh
+   POST - /api/produtos
+   ```
 
-Update one product
+4. Update one product
 
-```sh
-POST - /api/produtos/id
-```
+   ```sh
+   POST - /api/produtos/id
+   ```
 
-Delete one product
+5. Delete one product
 
-```sh
-DELETE - /api/produtos/id
-```
+   ```sh
+   DELETE - /api/produtos/id
+   ```
 
 ## Test
 
-```sh
-docker exec app php artisan test
-```
+   ```sh
+   docker exec app php artisan test
+   ```
