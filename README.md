@@ -19,18 +19,20 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/) 
    git clone https://github.com/jsmilenium/vesti_laravel8
    ```
 
-2. Inside the folder `docker-laravel-8` and Generate your own `.env` to docker compose with the next command:
+2. Generate your own `.env` to docker compose with the next command:
 
    ```sh
    cp .env.example .env
    ```
 
-3. You need **Create** or **Put** your laravel project in the folder source; to create follow the next instructions [Here](source/README.md).
-
-4. Build the project whit the next commands:
+3. Build the project whit the next commands:
 
    ```sh
    docker-compose up --build
+   ```
+   
+   ```sh
+   docker exec app php artisan migrate
    ```
 
 ## Api
